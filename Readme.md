@@ -36,7 +36,7 @@ We propose a **Web3 App Store Protocol** to solve the Accessibility and Security
 
 This design framework ensures Web3 App accessibility because the user can continue using the old local version — with the right to upgrade depending on the new registry and new app packages.
 
-At the same time, client will verify the checksum of local package with the checksum in registry. so avoiding the change opportunities from hackers or project teams, and ensure that the app used by users is consistent with that published in on-chain registry. And the config file in the package also points to the source code of the current version, and the auditor will be able to verify the package is packaged from those source code through the checksum. It will ensure the source code the consistency between the source code and the installation package, then ensure users use the safe package audited by auditor.
+At the same time, client will verify the checksum of local package with the checksum in registry. so avoiding the change opportunities from hackers or project teams, and ensure that the app used by users is consistent with that published in on-chain registry. And the config file in the package also points to the source code of the current version, and the auditor will be able to verify the package is packaged from those source code through the checksum. It will ensure the consistency between the source code and the installation package, then ensure users use the safe package audited by auditor.
 
 When users use a Web3 app, the client will also limit the permission for those apps based on the app's declaration of permission that user has confirmed before. Then completely **ensure** **the** **security** of user when accessing the local Web3 services.
 
